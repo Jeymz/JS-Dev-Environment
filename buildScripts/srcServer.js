@@ -22,9 +22,9 @@ app.get("/", function(req, res) {
 app.get("/users", function(req, res) {
 	// Hard coding for simplicity. Pretend this hits a real database
 	res.json([
-		{"id": 1,"firstName":"James","lastName":"Simmons","email":"Jeymz@jeymz.xyz"},
-		{"id": 2,"firstName":"Nate","lastName":"Stiles","email":"Nate@jeymz.xyz"},
-		{"id": 2,"firstName":"Jennifer","lastName":"Simmons","email":"Jenni@jeymz.xyz"}
+		{"id": 1,"firstName":"James","lastName":"Simmons","email":"jeymz@jeymz.xyz"},
+		{"id": 2,"firstName":"Nate","lastName":"Stiles","email":"nate@jeymz.xyz"},
+		{"id": 2,"firstName":"Jennifer","lastName":"Simmons","email":"jenni@jeymz.xyz"}
 	]);
 });
 
