@@ -1,6 +1,6 @@
 {
 	"name": "JS-Dev-Environmant",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "JavaScript development environment Pluralsight course by Cory House",
 	"scripts": {
 		"prestart": "babel-node buildScripts/startMessage.js",
